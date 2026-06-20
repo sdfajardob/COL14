@@ -88,14 +88,14 @@ body:
     validations:
       required: true
   - type: textarea
-    id: Archaeological_context
+    id: archaeological_context
     attributes:
       label: "Archaeological context (optional)"
       description: "Short description of the materials and context"
     validations:
       required: false
   - type: textarea
-    id: Technology
+    id: technology
     attributes:
       label: "Associated technology (optional)"
       description: "Indicate whether the date is associated with early evidence of a technology by specifying the technology involved (e.g., pottery, metallurgy, raised-field agriculture, cultivation)."
