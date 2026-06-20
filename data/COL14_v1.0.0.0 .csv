@@ -1,4 +1,4 @@
-Site_name or object code,C14Age,C14SD,Lab_code,Lon,Lat,Location quality,Material_Dated,APA_reference,Ref_complete,Archaeological_context,Technology
+Site_name,C14Age,C14SD,Lab_code,Lon,Lat,Location_quality,Material_Dated,APA_reference,Ref_complete,Archaeological_context,Technology
 5,1920,70,Beta-128516,-74.73,6.99,Reported,,SAG. (1999). Estudio de impacto ambiental Troncal Nordeste fase III,yes,,
 7,720,80,Beta-128514,-74.71,7.06,Reported,,SAG. (1999). Estudio de impacto ambiental Troncal Nordeste fase III,yes,,
 13,1060,70,Beta-128515,-74.95,6.59,Reported,,SAG. (1999). Estudio de impacto ambiental Troncal Nordeste fase III,yes,,
@@ -2033,7 +2033,8 @@ Torre 48 (Puerto Nare),20,50,Beta-101274,-74.58324369,6.186923607,Estimated,Char
 ,3880,80,Beta-87020,,,,,,no,,
 ,620,50,Beta-232173,,,,Charcoal,,no,,
 ,500,90,IAN-12,,,,,"Uribe, M. (1990). Cronologia absoluta de la arqueologia colombiana. Revista de Antropologia y Arqueologia, 1 (1), 205-233. Universidad de los Andes.",yes,,
-Pueblito  Terraza 37 unidad 3 (Santa Marta),1020,60,Beta-232176,-73.97972014,11.31709293,Reported,Charcoal,"Plazas, C. (2019). El humano-murciélago en el Área Intermedia Norte: distribución, formas y simbolismo. Instituto Colombiano de Antropología e Historia.",yes,,
+Pueblito  Terraza 37 unidad 3 (Santa Marta),1020,60,Beta-232176,-73.97972014,11.31709293,Reported,Charcoal,"Plazas, C. (2019). El humano-murciélago en el Área Intermedia Norte: distribución, formas y simbolismo. Instituto Colombiano de Antropología e Historia.
+",yes,,
 ,2220,40,Beta-216412,,,,,,no,,
 ,900,120,IAN-31,,,,,"Uribe, M. (1990). Cronologia absoluta de la arqueologia colombiana. Revista de Antropologia y Arqueologia, 1 (1), 205-233. Universidad de los Andes.",yes,,
 ,3380,70,Beta-122614,,,,,,no,,
@@ -2066,7 +2067,8 @@ Minguimalo,1028,150,M-1169,-76.81780372,4.898673303,Reported,Charcoal,"Reichel-D
 Minguimalo,530,75,M-1171,-76.81780372,4.898673303,Reported,Wood,"Reichel-Dolmatoff, G., & Reichel-Dolmatoff, A. (1962). Investigaciones arqueologicas en la Costa Pacifica de Colombia II - Una secuencia cultural del bajo rio San Juan. Revista colombiana de antropologia, 11, 11-62. https://doi.org/10.22380/2539472X.1674",yes,,
 Murillo,1040,75,M-1169,-76.83565432,4.74250024,Reported,Charcoal,"Crane, H. R., & Griffin, J. B. (1963). University of Michigan radiocarbon dates VIII. Radiocarbon, 5, 228-253.",yes,,
 Catanguero,2200,100,M-1170,-77.03206475,4.105668061,Reported,Charcoal,"Crane, H. R., & Griffin, J. B. (1963). University of Michigan radiocarbon dates VIII. Radiocarbon, 5, 228-253.",yes,,
-San Miguel (Timbiqui),1285,35,PITT-212 P3,-77.76611207,2.755871555,Estimated,Charcoal,"Patiño, D. (1993). Arqueologia del Bajo Patia, fases y correlaciones en la costa pacifica de Colombia y Ecuador. Latin American Antiquity, 4(2), 180–199. https://doi-org.leidenuniv.idm.oclc.org/10.2307/971801",yes,,
+San Miguel (Timbiqui),1285,35,PITT-212 P3,-77.76611207,2.755871555,Estimated,Charcoal,"Patiño, D. (1993). Arqueologia del Bajo Patia, fases y correlaciones en la costa pacifica de Colombia y Ecuador. Latin American Antiquity, 4(2), 180–199. https://doi-org.leidenuniv.idm.oclc.org/10.2307/971801
+",yes,,
 Yacimiento 19 (Abejorral),2310,70,Beta-77436,-75.42817433,5.789013652,Estimated,Charcoal,"Piazzini, Carlo E. (1998). El programa de arqueología en el contexto de la arqueología colombiana. En Arqueología en Estudios de Impacto Ambiental, volumen 2, 13-28. Interconexión Eléctrica",yes,,
 Sitio 5 Torre 270 (Coyaima),1610,60,Beta-103590,-75.19,3.69,Reported,Charcoal,"Piazzini, Carlo E. (1998). El programa de arqueología en el contexto de la arqueología colombiana. En Arqueología en Estudios de Impacto Ambiental, volumen 2, 13-28. Interconexión Eléctrica",yes,,
 YSM 03-00 (Yotoco),1550,120,Beta-102883,-76.43646347,3.832709406,Estimated,Charcoal,"Piazzini, Carlo E. (1998). El programa de arqueología en el contexto de la arqueología colombiana. En Arqueología en Estudios de Impacto Ambiental, volumen 2, 13-28. Interconexión Eléctrica",yes,,
