@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: "Contribute by spreadsheet (no GitHub account)"
+    url: "https://github.com/CHANGEME/COL14/blob/main/data/SUBMISSION_TEMPLATE.csv"
+    about: "Prefer not to use GitHub? Download the CSV template, fill it in, and email it to the maintainer (see the README)."
+  - name: "Data dictionary"
+    url: "https://github.com/CHANGEME/COL14/blob/main/data/data_dictionary.md"
+    about: "Definitions of every database column. Read this before submitting."

@@ -1,0 +1,12 @@
+# Normalise line endings of text files inside the repository
+* text=auto
+
+# Treat these as binary so Git never alters their bytes
+*.RData binary
+*.rda   binary
+*.rds   binary
+*.pdf   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.xlsx  binary

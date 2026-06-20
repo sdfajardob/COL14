@@ -1,0 +1,112 @@
+name: "Submit new radiocarbon date(s)"
+description: "Add one or more radiocarbon dates to COL14. No Git knowledge needed — just fill in the fields."
+title: "[New date] <site name or lab code>"
+labels: ["new-date"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing to COL14! Please fill in the fields below for **one** radiocarbon date.
+        To submit several dates at once, either open one issue per date or attach a filled-in
+        `data/SUBMISSION_TEMPLATE.csv` in the last field.
+
+        Field definitions are in the [data dictionary](../blob/main/data/data_dictionary.md).
+        Ages must be **uncalibrated** radiocarbon years BP.
+  - type: input
+    id: site_name
+    attributes:
+      label: "Site name or object code"
+      description: "Reported site name, or object catalogue code. Optionally add the locality in parentheses."
+      placeholder: "e.g. Teyuna (Santa Marta)  —  or  —  MO12345"
+    validations:
+      required: false
+  - type: input
+    id: c14age
+    attributes:
+      label: "C14 age (BP)"
+      description: "Uncalibrated radiocarbon age in years BP."
+      placeholder: "e.g. 2450"
+    validations:
+      required: true
+  - type: input
+    id: c14sd
+    attributes:
+      label: "C14 standard deviation (±)"
+      description: "One-sigma measurement error, in radiocarbon years."
+      placeholder: "e.g. 35"
+    validations:
+      required: true
+  - type: input
+    id: lab_code
+    attributes:
+      label: "Lab code"
+      description: "e.g. Beta-123456. If the lab is known but not the number, use Beta-unknown1, etc."
+      placeholder: "e.g. Beta-123456"
+    validations:
+      required: false
+  - type: input
+    id: lon
+    attributes:
+      label: "Longitude (decimal degrees, WGS84)"
+      description: "West is negative."
+      placeholder: "e.g. -74.0721"
+    validations:
+      required: false
+  - type: input
+    id: lat
+    attributes:
+      label: "Latitude (decimal degrees, WGS84)"
+      description: "South is negative."
+      placeholder: "e.g. 4.7110"
+    validations:
+      required: false
+  - type: dropdown
+    id: location_quality
+    attributes:
+      label: "Location quality"
+      description: "How reliable are the coordinates? (see data dictionary)"
+      options:
+        - "Reported"
+        - "Estimated"
+        - "Unknown"
+    validations:
+      required: false
+  - type: input
+    id: material_dated
+    attributes:
+      label: "Material dated"
+      description: "e.g. charcoal, bone, textile, organic residue, seed, Shell. Use 'Shell' for marine samples."
+      placeholder: "e.g. charcoal"
+    validations:
+      required: false
+  - type: textarea
+    id: apa_reference
+    attributes:
+      label: "Reference (APA)"
+      description: "Where is this date published or reported? Full APA citation if possible."
+      placeholder: "Author, A. (Year). Title. Journal/Publisher. DOI/URL"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: "Archaeological context / associated technology (optional)"
+      description: "Short description of the materials and context, and any associated technology."
+    validations:
+      required: false
+  - type: textarea
+    id: bulk_upload
+    attributes:
+      label: "Submitting several dates? Paste rows or note an attached CSV here (optional)"
+      description: "You can drag-and-drop a filled-in SUBMISSION_TEMPLATE.csv into this box."
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: "Before submitting"
+      options:
+        - label: "The age above is uncalibrated (radiocarbon years BP), not calibrated."
+          required: true
+        - label: "I have provided a source/reference for this date."
+          required: true

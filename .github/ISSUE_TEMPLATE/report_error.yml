@@ -1,0 +1,45 @@
+name: "Report an error / correction"
+description: "Report a wrong coordinate, mis-keyed age, missing or incorrect reference, or a recalibration issue in an existing entry."
+title: "[Correction] <lab code or site name>"
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep COL14 accurate. Please identify the affected entry and the correction.
+  - type: input
+    id: lab_code
+    attributes:
+      label: "Which entry? (Lab code preferred)"
+      description: "Identify the row to correct, ideally by Lab_code; otherwise by site name + age."
+      placeholder: "e.g. Beta-123456"
+    validations:
+      required: true
+  - type: dropdown
+    id: field
+    attributes:
+      label: "What needs correcting?"
+      multiple: true
+      options:
+        - "C14 age / standard deviation"
+        - "Lab code"
+        - "Coordinates / location quality"
+        - "Material dated"
+        - "Reference"
+        - "Context / technology"
+        - "Other"
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: "Correct value(s)"
+      description: "Give the corrected information and the source supporting it."
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Additional notes (optional)"
+    validations:
+      required: false

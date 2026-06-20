@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use COL14, please cite both this dataset/software and the associated publication."
+title: "COL14: A compiled radiocarbon database for Colombia"
+abstract: "An openly licensed, version-controlled database of radiocarbon dates from Colombia, with R code for calibrating the dates and modelling demographic intensity against ENSO/palaeoclimate proxies."
+type: dataset
+version: 1.0.0
+date-released: 2026-06-19
+license: CC-BY-4.0
+authors:
+  - given-names: Sebastian
+    family-names: Fajardo
+    # TODO: confirm full surname(s) and add your ORCID, e.g.
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+    affiliation: "Leiden University; Delft University of Technology"
+keywords:
+  - radiocarbon
+  - Colombia
+  - archaeology
+  - paleodemography
+  - ENSO
+  - rcarbon
+  - NIMBLE
+# TODO: once archived on Zenodo, add the concept DOI here:
+# doi: 10.5281/zenodo.XXXXXXX
+# repository-code: "https://github.com/<user>/COL14"
