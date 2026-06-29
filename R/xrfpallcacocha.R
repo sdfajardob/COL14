@@ -36,8 +36,8 @@ SEEDS       <- c(123, 456, 789, 325)
 stopifnot(length(SEEDS) == NCHAINS)
 NCORES <- 4
 
-# ANALYSIS WINDOW. Older bound BP of the changing point 95% HPDI = 3808.322 from double exponential model mcmc 100k
-WIN_OLD <- 3808   
+# ANALYSIS WINDOW. Older bound BP of the changing point 95% HPDI = 3811.333 from double exponential model mcmc 100k
+WIN_OLD <- 3811   
 WIN_YNG <- 500
 
 # LOAD C14 DATA

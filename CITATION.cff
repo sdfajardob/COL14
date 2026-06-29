@@ -9,9 +9,41 @@ license: CC-BY-4.0
 authors:
   - given-names: Sebastian
     family-names: Fajardo
-    # TODO: confirm full surname(s) and add your ORCID, e.g.
-    # orcid: "https://orcid.org/0000-0000-0000-0000"
+    orcid: "https://orcid.org/0000-0002-1216-821X"
     affiliation: "Leiden University; Delft University of Technology"
+
+  - given-names: Natalia
+    family-names: Alvarez
+    affiliation: "Instituto Colombiano de Antropología e Historia (ICANH), Colombia; Departamento de Antropología, Universidad Nacional de Colombia, Colombia"
+
+  - given-names: A. Jacobo
+    family-names: Hidalgo
+    affiliation: "Ingecontrol S.A., Colombia"
+
+  - given-names: Luis Felipe
+    family-names: Navarro
+    affiliation: "Instituto Colombiano de Antropología e Historia (ICANH), Colombia"
+
+  - given-names: Rodolfo
+    family-names: Cepeda
+    affiliation: "Instituto Colombiano de Antropología e Historia (ICANH), Colombia"
+
+  - given-names: Nicolás
+    family-names: Loaiza
+    affiliation: "Fundación Pro Calima, Colombia"
+
+  - given-names: Carlos
+    family-names: Reina
+    affiliation: "Instituto Colombiano de Antropología e Historia (ICANH), Colombia"
+
+  - given-names: Javier
+    family-names: Ruiz-Pérez
+    affiliation: "Department of Humanities, CASEs group, Universitat Pompeu Fabra (UPF), Spain"
+
+  - given-names: Marco
+    family-names: Madella
+    affiliation: "Department of Humanities, CASEs group, Universitat Pompeu Fabra (UPF), Spain; ICREA, Spain; School of Geography, Archaeology, and Environmental Studies (GAES), University of the Witwatersrand, South Africa"
+	
 keywords:
   - radiocarbon
   - Colombia

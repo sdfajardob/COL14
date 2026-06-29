@@ -1,0 +1,9 @@
+run_timestamp      : 2026-06-20 17:01:54 CEST
+R_version          : R version 4.5.2 (2025-10-31)
+rcarbon_version    : 1.5.2
+nimble_version     : 1.4.0
+nimbleCarbon_ver   : 0.2.6
+coda_version       : 0.19.4.1
+truncnorm_version  : 1.0.9
+RNGkind            : Mersenne-Twister / Inversion / Rejection
+calibration_curves : intcal20 (terrestrial), marine20 (Shell)

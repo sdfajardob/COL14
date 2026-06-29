@@ -7,11 +7,11 @@ Versions follow a semantic-style scheme:
   compatibility with earlier versions;
 - **MINOR** — new radiocarbon dates added;
 - **PATCH** — corrections to existing entries, metadata, or documentation.
-
+<!--
 ## [Unreleased]
-- Changes staged for the next release go here.
+- Changes staged for the next release go here. -->
 
-## [1.0.0] — 2026-06-19
+## [1.0.0] — 2026-06-29
 ### Added
 - Initial public release of the COL14 radiocarbon database.
 - Analysis code: a double-exponential growth model with a change point and the

@@ -40,7 +40,7 @@ stopifnot(length(SEEDS) == NCHAINS)
 NCORES <- 4
 
 # ANALYSIS WINDOW
-WIN_OLD <- 3808
+WIN_OLD <- 3811
 WIN_YNG <- 500
 
 

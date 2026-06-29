@@ -2,7 +2,7 @@
 
 COL14 is a version-controlled database of radiocarbon dates from Colombia, together with the R code used to analyse it in the accompanying publication. The repository is designed also to include new radiocarbon dates from contributors who do not use Git.
 
-The database is a result from the Mapping the Archaeological Pre-Columbian Heritage of South America (_MAPHSA_) project.  We used the database to identify what social en environmental conditions enabled the production of technologies during ~12900-500BP in northern South American. The database includes current available data for directly dating of the emergence of four technologies: plant domestication, pottery, metallurgy, and raised-field structures.
+The database is a result from the Mapping the Archaeological Pre-Columbian Heritage of South America (_MAPHSA_) project.  We used the database to identify what social en environmental conditions enabled the production of technologies during ~12900-500BP in northern South American. The database includes current available data for directly dating of the emergence of four technologies: plant management, pottery, metallurgy, and raised-field structures.
 
 - **Maintainer:** Sebastian Fajardo — Leiden University; Delft University of Technology
 - **Database version:** 1.0.0 · see [`CHANGELOG.md`](CHANGELOG.md)
@@ -63,7 +63,7 @@ The database follows semantic-style versioning (`Major.Minor.Patch` format): new
 
 ## How to cite
 
-If you use COL14, please cite both the database and the associated publication. Citation metadata is in [`CITATION.cff`](CITATION.cff); GitHub renders a *"Cite this repository"* button from it. Once archived, cite the Zenodo DOI.
+If you use COL14, please cite both the database and the associated publication. Citation metadata is in [`CITATION.cff`](CITATION.cff).
 
 ## Licensing
 
