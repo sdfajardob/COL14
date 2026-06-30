@@ -13,7 +13,7 @@ authors:
     affiliation: "Leiden University; Delft University of Technology"
 
   - given-names: Natalia
-    family-names: Alvarez
+    family-names: Álvarez Correa
     affiliation: "Instituto Colombiano de Antropología e Historia (ICANH), Colombia; Departamento de Antropología, Universidad Nacional de Colombia, Colombia"
 
   - given-names: A. Jacobo
@@ -30,19 +30,22 @@ authors:
 
   - given-names: Nicolás
     family-names: Loaiza
-    affiliation: "Fundación Pro Calima, Colombia"
-
+    orcid: "https://orcid.org/0000-0002-3683-7721"
+	affiliation: "Fundación Pro Calima, Colombia"
+	
   - given-names: Carlos
     family-names: Reina
     affiliation: "Instituto Colombiano de Antropología e Historia (ICANH), Colombia"
 
   - given-names: Javier
     family-names: Ruiz-Pérez
-    affiliation: "Department of Humanities, CASEs group, Universitat Pompeu Fabra (UPF), Spain"
+    orcid: "https://orcid.org/0000-0001-8593-7393" 
+	affiliation: "Department of Humanities, CASEs group, Universitat Pompeu Fabra (UPF), Spain"
 
   - given-names: Marco
     family-names: Madella
-    affiliation: "Department of Humanities, CASEs group, Universitat Pompeu Fabra (UPF), Spain; ICREA, Spain; School of Geography, Archaeology, and Environmental Studies (GAES), University of the Witwatersrand, South Africa"
+    orcid: "https://orcid.org/0000-0002-9324-1545"
+	affiliation: "Department of Humanities, CASEs group, Universitat Pompeu Fabra (UPF), Spain; ICREA, Spain; School of Geography, Archaeology, and Environmental Studies (GAES), University of the Witwatersrand, South Africa"
 	
 keywords:
   - radiocarbon
@@ -52,6 +55,8 @@ keywords:
   - ENSO
   - rcarbon
   - NIMBLE
+  - nimbleCarbon
+
 # TODO: once archived on Zenodo, add the concept DOI here:
 # doi: 10.5281/zenodo.XXXXXXX
-# repository-code: "https://github.com/<user>/COL14"
+repository-code: "https://github.com/sdfajardob/COL14"
