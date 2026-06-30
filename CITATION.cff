@@ -31,8 +31,8 @@ authors:
   - given-names: Nicolás
     family-names: Loaiza
     orcid: "https://orcid.org/0000-0002-3683-7721"
-	affiliation: "Fundación Pro Calima, Colombia"
-	
+    affiliation: "Fundación Pro Calima, Colombia"
+
   - given-names: Carlos
     family-names: Reina
     affiliation: "Instituto Colombiano de Antropología e Historia (ICANH), Colombia"
@@ -40,13 +40,13 @@ authors:
   - given-names: Javier
     family-names: Ruiz-Pérez
     orcid: "https://orcid.org/0000-0001-8593-7393" 
-	affiliation: "Department of Humanities, CASEs group, Universitat Pompeu Fabra (UPF), Spain"
+    affiliation: "Department of Humanities, CASEs group, Universitat Pompeu Fabra (UPF), Spain"
 
   - given-names: Marco
     family-names: Madella
     orcid: "https://orcid.org/0000-0002-9324-1545"
-	affiliation: "Department of Humanities, CASEs group, Universitat Pompeu Fabra (UPF), Spain; ICREA, Spain; School of Geography, Archaeology, and Environmental Studies (GAES), University of the Witwatersrand, South Africa"
-	
+    affiliation: "Department of Humanities, CASEs group, Universitat Pompeu Fabra (UPF), Spain; ICREA, Spain; School of Geography, Archaeology, and Environmental Studies (GAES), University of the Witwatersrand, South Africa"
+
 keywords:
   - radiocarbon
   - Colombia
