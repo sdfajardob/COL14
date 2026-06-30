@@ -6,7 +6,7 @@ The dataset is a result from the Mapping the Archaeological Pre-Columbian Herita
 
 - **Maintainer:** Sebastian Fajardo — Leiden University; Delft University of Technology
 - **Database version:** 1.0.0 · see [`CHANGELOG.md`](CHANGELOG.md)
-- **DOI:** <!-- TODO: add Zenodo concept DOI badge once archived -->
+- **DOI:** **https://doi.org/10.5281/zenodo.21084728**
 - **Associated publication:** <!-- TODO: citation + DOI when available -->
 
 ---

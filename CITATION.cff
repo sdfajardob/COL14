@@ -22,6 +22,7 @@ authors:
 
   - given-names: Luis Felipe
     family-names: Navarro
+    orcid: "https://orcid.org/0000-0002-2481-7838"
     affiliation: "Instituto Colombiano de Antropología e Historia (ICANH), Colombia"
 
   - given-names: Rodolfo
@@ -57,6 +58,5 @@ keywords:
   - NIMBLE
   - nimbleCarbon
 
-# TODO: once archived on Zenodo, add the concept DOI here:
-# doi: 10.5281/zenodo.XXXXXXX
+doi: 10.5281/zenodo.21084728
 repository-code: "https://github.com/sdfajardob/COL14"
