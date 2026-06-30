@@ -19,7 +19,7 @@ Place your cleaned database in this folder named with its version, e.g.:
 data/COL14_v1.0.0.csv
 ```
 
-The analysis scripts in `../R/` currently read a file called `COL14_v1.0.0.csv` from an absolute path. After adding the database here, update the `read.csv(...)` path at the top of each script to point to this file (see `../R/README.md`). Keeping a single, versioned copy in `data/` is what lets the database, the code, and each Zenodo release stay in step.
+The analysis scripts in `../R/` currently read a file called `COL14_v1.0.0.csv` from an absolute path. After adding the database here, update the `read.csv(...)` path at the top of each script to point to this file (see `../R/README.md`).
 
 ## Versioning the database
 
