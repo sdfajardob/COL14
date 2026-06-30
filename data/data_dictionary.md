@@ -89,7 +89,7 @@ The technology — among the introduction intervals analysed in the publication 
 
 ## Notes on use
 
-- **Calibration is performed at analysis time, not stored.** The database holds only uncalibrated `C14Age` ± `C14SD`; the R scripts calibrate with IntCal20 (terrestrial) or Marine20 (`Material_Dated == "Shell"`).
+- **Calibration is performed at analysis time, not stored.** The dataset holds only uncalibrated `C14Age` ± `C14SD`; the R scripts calibrate with IntCal20 (terrestrial) or Marine20 (`Material_Dated == "Shell"`).
 - **Encoding:** save the file as UTF-8 to preserve accented site names and author names.
 - **Decimal separator:** use a period (`.`), not a comma, for `Lon`, `Lat`, .
 - **Missing values:** leave the cell empty rather than entering `NA`, `0`, or

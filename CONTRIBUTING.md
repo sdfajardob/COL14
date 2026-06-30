@@ -13,7 +13,7 @@ All contributions are reviewed against the [data dictionary](data/data_dictionar
 3. Fill in the fields and submit.
 
 This only requires a free GitHub account. The maintainer transfers the
-validated entry into the database for you.
+validated entry into the dataset for you.
 
 ### 2. Spreadsheet — no GitHub account required
 
@@ -26,7 +26,7 @@ The maintainer reviews the rows and commits them, crediting you in the commit an
 ### 3. Pull request — for Git users
 
 1. Fork the repository and create a branch.
-2. Add your rows to the current `data/COL14_database_v*.csv`, following the
+2. Add your rows to the current `data/COL14_dataset_v*.csv`, following the
    data dictionary exactly (column names, controlled values, units).
 3. Add an entry under **[Unreleased]** in `CHANGELOG.md`.
 4. Open a pull request describing what you added and the source(s).
@@ -45,7 +45,7 @@ The maintainer reviews the rows and commits them, crediting you in the commit an
 
 1. **Review** — the entry is checked for format, required fields, plausible
    ranges, and duplicates against existing `Lab_code`s.
-2. **Merge** — accepted rows are added to the database CSV and the change is
+2. **Merge** — accepted rows are added to the dataset CSV and the change is
    noted under **[Unreleased]** in `CHANGELOG.md`.
 3. **Release** — periodically, the maintainer publishes a new version: bump the
    version in the CSV filename, `CITATION.cff`, and `CHANGELOG.md`; tag a GitHub

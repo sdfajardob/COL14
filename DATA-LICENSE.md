@@ -1,6 +1,6 @@
 # Data License — Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-The COL14 radiocarbon database — the files `data/COL14_v*.csv` and
+The COL14 radiocarbon dataset — the files `data/COL14_v*.csv` and
 `data/data_dictionary.md` — is licensed under the
 **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
 
@@ -22,9 +22,9 @@ Human-readable summary: https://creativecommons.org/licenses/by/4.0/
 
 ## Required attribution
 
-When reusing the database, please cite:
+When reusing the dataset, please cite:
 
-><!-- Fajardo, S. (2026). *COL14: A compiled radiocarbon database for Colombia*
+><!-- Fajardo, S. (2026). *COL14: A compiled radiocarbon dataset for Colombia*
 > (Version 1.0.0) [Data set].
 > - TODO: add Zenodo DOI -->
 
@@ -32,7 +32,7 @@ and, where applicable, the associated publication (see `CITATION.cff`).
 
 ## Scope
 
-This license covers **only** the COL14 database and its data dictionary. It
+This license covers **only** the COL14 dataset and its data dictionary. It
 does **not** cover:
 
 - the analysis code in `R/` (licensed separately under the MIT License — see

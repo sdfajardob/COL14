@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use COL14, please cite both this dataset/software and the associated publication."
-title: "COL14: A compiled radiocarbon database for Colombia"
-abstract: "An openly licensed, version-controlled database of radiocarbon dates from Colombia, with R code for calibrating the dates and modelling demographic intensity against ENSO/palaeoclimate proxies."
+title: "COL14: A compiled radiocarbon dataset for Colombia"
+abstract: "An openly licensed, version-controlled dataset of radiocarbon dates from Colombia, with R code for calibrating the dates and modelling demographic intensity against ENSO/palaeoclimate proxies."
 type: dataset
 version: 1.0.0
 date-released: 2026-06-19
@@ -20,7 +20,7 @@ authors:
     family-names: Hidalgo
     affiliation: "Ingecontrol S.A., Colombia"
 
-  - given-names: Luis Felipe
+  -	 given-names: Luis Felipe
     family-names: Navarro
     affiliation: "Instituto Colombiano de Antropología e Historia (ICANH), Colombia"
 

@@ -17,5 +17,5 @@ Thumbs.db
 .idea/
 /.obsidian/
 
-# NOTE: the database CSVs in data/ and the precomputed artifacts in results/
+# NOTE: the dataset CSVs in data/ and the precomputed artifacts in results/
 # are intentionally version-controlled.
