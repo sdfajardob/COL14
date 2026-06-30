@@ -11,11 +11,10 @@ Versions follow a semantic-style scheme:
 ## [Unreleased]
 - Changes staged for the next release go here. -->
 
-## [1.0.0] — 2026-06-29
+## [1.0.0] — 2026-06-30
 ### Added
 - Initial public release of the COL14 radiocarbon database.
 - Analysis code: a double-exponential growth model with a change point and the
   SPD (`col14_mcmc_v12.R`), and bin-level models against the El Junco (Zhang et
   al. 2014) and Pallcacocha XRF PC1 (Mark et al. 2022) ENSO proxies.
-- Data dictionary, contribution forms and template, dual licensing
-  (MIT for code, CC BY 4.0 for data), and citation metadata.
+- Dual-licensed: code under the MIT License; the database under CC BY 4.0. Third-party palaeoclimate series  extracts in `data/paleoclimate/` remain under the terms of their original publications.
