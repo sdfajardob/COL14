@@ -3,7 +3,7 @@ message: "If you use COL14, please cite both this dataset/software and the assoc
 title: "COL14: A compiled radiocarbon dataset for Colombia"
 abstract: "An openly licensed, version-controlled dataset of radiocarbon dates from Colombia, with R code for calibrating the dates and modelling demographic intensity against ENSO/palaeoclimate proxies."
 type: dataset
-version: 1.0.0
+version: 1.1.0
 date-released: 2026-06-19
 license: CC-BY-4.0
 authors:
