@@ -5,9 +5,9 @@ COL14 is a version-controlled dataset of radiocarbon dates from Colombia, togeth
 The dataset is a result from the Mapping the Archaeological Pre-Columbian Heritage of South America (_MAPHSA_) project.  We used the dataset to identify what social en environmental conditions enabled the production of technologies during ~12900-500BP in northern South American. The dataset includes current available data for directly dating of the emergence of four technologies: plant management, pottery, metallurgy, and raised-field structures.
 
 - **Maintainer:** Sebastian Fajardo — Leiden University; Delft University of Technology
-- **Database version:** 1.0.0 · see [`CHANGELOG.md`](CHANGELOG.md)
-- **DOI:** **https://doi.org/10.5281/zenodo.21084728**
-- **Associated publication:** <!-- TODO: citation + DOI when available -->
+- **Database version:** 1.1.0 · see [`CHANGELOG.md`](CHANGELOG.md)
+- **DOI version 1.0.0:** **https://doi.org/10.5281/zenodo.21084728**
+<!-- - **Associated publication:** <!-- TODO: citation + DOI when available -->
 
 ---
 
@@ -16,7 +16,7 @@ The dataset is a result from the Mapping the Archaeological Pre-Columbian Herita
 ```
 COL14/
 ├── data/
-│   ├── COL14_v1.0.0.csv               # the radiocarbon dataset
+│   ├── COL14_v1.1.0.csv               # the radiocarbon dataset
 │   ├── data_dictionary.md             # definition of every column in the dataset
 │   ├── SUBMISSION_TEMPLATE.csv        # blank template for contributing dates
 │   └── paleoclimate/                  # third-party proxy series + sources
@@ -44,6 +44,7 @@ The MCMC is slow to run, so precomputed results are committed under [`results/`]
 
 The palaeoclimate series are reproduced from Mark et al. (2022) and Zhang et al. (2014); see [`data/paleoclimate/README.md`](data/paleoclimate/README.md) for full citations and licensing.
 
+**Note:** the precomputed outputs in `results/` were generated with dataset > v1.0.0 and correspond to the associated publication. They have not been  re-run for later versions. Running the scripts on the current dataset will give different results.
 ## Contributing new dates
 
 New radiocarbon dates and corrections are welcome. There are three ways to contribute, from no technical setup to full Git — all described in [`CONTRIBUTING.md`](CONTRIBUTING.md):

@@ -26,7 +26,7 @@ The maintainer reviews the rows and commits them, crediting you in the commit an
 ### 3. Pull request — for Git users
 
 1. Fork the repository and create a branch.
-2. Add your rows to the current `data/COL14_dataset_v*.csv`, following the
+2. Add your rows to the current `data/COL14_v*.csv`, following the
    data dictionary exactly (column names, controlled values, units).
 3. Add an entry under **[Unreleased]** in `CHANGELOG.md`.
 4. Open a pull request describing what you added and the source(s).

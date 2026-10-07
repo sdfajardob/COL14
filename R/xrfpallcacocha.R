@@ -3,7 +3,7 @@
 #
 
 library(here)  # locate repo root automatically (see R/README.md)
-input_csv <- here::here("data", "COL14_v1.0.0.csv")
+input_csv <- here::here("data", "COL14_v1.1.0.csv")
 enso_csv  <- here::here("data", "paleoclimate", "xrf_pallcacochaPC1_mark_etal_2022.csv")
 local_dir <- here::here("outputs", "xrfpallcacocha")
 dir.create(local_dir, showWarnings = FALSE, recursive = TRUE)

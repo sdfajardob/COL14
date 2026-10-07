@@ -5,7 +5,7 @@
 #
 
 library(here)  # locate repo root automatically (see R/README.md)
-input_csv    <- here::here("data", "COL14_v1.0.0.csv")
+input_csv    <- here::here("data", "COL14_v1.1.0.csv")
 logbotry_csv <- here::here("data", "paleoclimate", "eljunco_log_botryococcene.csv")
 dD_csv       <- here::here("data", "paleoclimate", "eljunco_dD_botryococcene_avg.csv")
 local_dir <- here::here("outputs", "eljunco")

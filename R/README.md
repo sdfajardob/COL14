@@ -31,7 +31,7 @@ install.packages(c("here", "rcarbon", "nimble", "nimbleCarbon",
 
 ## Paths
 
-No path editing is needed. Each script calls `library(here)` and resolves its inputs relative to the repository root — for example `here::here("data", "COL14_v1.0.0.csv")`. The
+No path editing is needed. Each script calls `library(here)` and resolves its inputs relative to the repository root — for example `here::here("data", "COL14_v1.1.0.csv")`. The
 [`here`](https://here.r-lib.org/) package finds the root automatically via the `.here` anchor file (and the `.git` folder once the repo is initialised), so the scripts work whether you launch R from the repository root or from a subfolder, on any operating system.
 
 Each script writes its outputs to its own subfolder under `outputs/` (e.g. `outputs/col14_mcmc100k/`), created automatically and ignored by Git. Curated, citable copies of the expensive results live in `results/` (see [Reproducibility](#reproducibility)).

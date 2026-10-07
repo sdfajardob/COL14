@@ -8,11 +8,11 @@ Versions follow a semantic-style scheme:
 - **MINOR** — new radiocarbon dates added;
 - **PATCH** — corrections to existing entries, metadata, or documentation.
 
-## [Unreleased]
+## [1.1.0] —2026-10-07
 ### Fixed
 - Corrected `Longitude` and `Latitude` for the 22 entries with `Site_name` "Tequendama" (from -74.216, 4.583 to -74.272882 , 4.53853). The original coordinates were imprecise. 
-## Added
-- - 8 new dates from Campus Universidad del Magdalena and 2 new dates the Río Frío basin, contributed by @olovalleb-90 (issues #1–#10)
+### Added
+-  8 new dates from Campus Universidad del Magdalena and 2 new dates the Río Frío basin, contributed by @olovalleb-90 (issues #1–#10)
 
 ## [1.0.0] — 2026-06-30
 ### Added

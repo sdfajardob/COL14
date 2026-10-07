@@ -25,7 +25,7 @@ Human-readable summary: https://creativecommons.org/licenses/by/4.0/
 When reusing the dataset, please cite:
 
 ><!-- Fajardo, S. (2026). *COL14: A compiled radiocarbon dataset for Colombia*
-> (Version 1.0.0) [Data set].
+> (Version 1.1.0) [Data set].
 > - TODO: add Zenodo DOI -->
 
 and, where applicable, the associated publication (see `CITATION.cff`).
