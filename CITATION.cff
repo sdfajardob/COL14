@@ -4,13 +4,23 @@ title: "COL14: A compiled radiocarbon dataset for Colombia"
 abstract: "An openly licensed, version-controlled dataset of radiocarbon dates from Colombia, with R code for calibrating the dates and modelling demographic intensity against ENSO/palaeoclimate proxies."
 type: dataset
 version: 1.1.0
-date-released: 2026-06-19
+date-released: 2026-10-07
 license: CC-BY-4.0
 authors:
   - given-names: Sebastian
     family-names: Fajardo
     orcid: "https://orcid.org/0000-0002-1216-821X"
-    affiliation: "Leiden University; Delft University of Technology"
+    affiliation: "Leiden University; Delft University of Technology, The Netherlands"
+
+  - given-names: Philip
+     family-names: Riris
+     orcid: "https://orcid.org/0000-0003-4244-7495"
+     affiliation: "Bournemouth University, United Kingdom"
+
+  - given-names: Maria
+     family-names: Vélez
+     orcid: "https://orcid.org/0000-0003-2990-6343"
+     affiliation: "University of Regina, Canada"
 
   - given-names: Natalia
     family-names: Álvarez Correa
